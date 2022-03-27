@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(64, 100%, 95%);
+    color: #000;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-bar {
+    background-color: hsl(33, 100%, 88%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.nav > li {
+    padding: 5px;
+}
+
+.nav > li:hover {
+    cursor: pointer;
+    color: hsl(183, 96%, 27%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.nav-bar {
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.nav > li {
+    padding: 5px;
+}
+
+.nav > li:hover {
+    cursor: pointer;
+    color: hsl(183, 96%, 27%);
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    font-size: 0.9rem;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+/* home */
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 50vh;
+}
+
+.home > * {
+    margin: 10px;
+}
+
+/* featured products */
+
+.featured-products {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    text-align: start;
+}
+
+/* kani waa content parent */
+.featured-products > * {
+    width: 50%;
+}
+
+.featured-content {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1rem;
+}
+
+.content {
+    width: 70%;
+}
+.content > * {
+    margin: 10px;
+}
+
+.product-img > img {
+    width: 80%;
+}
+
+/* footer */
+footer {
+    margin: 30px 5px 5px;
+    font-size: 1rem;
+}
