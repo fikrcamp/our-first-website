@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    background-color:D3E0EA;
+
+}
+.header{
+    display: flex;
+    background-color: gray;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #DDDDDD;
+}
+.logo img{
+    height: 35px;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+
+}
+nav ul li:hover{
+    cursor: pointer;
+    color: blue;
+}
+.nav li{
+    padding: 10px 0;
+color: black;
+}
+
+.btn{
+    border-radius: 3px;
+    border: 0;
+    padding: 10px;
+    background-color: blue;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+ .hero{
+     display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+    gap:4px;
+ }
+ .feature-products{
+     background-color:#F7F5F2 ;
+    justify-content: flex-end;
+     display: flex;
+    align-items: center;
+    margin: 10px 0px;
+ }
+ .sawir{
+     width: 500px;
+ }
+ .content{
+     width: 70%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .feature-img{
+     width: 70%;
+ }
+
+ .child{
+     width: 50%;
+    
+ }
+
+ /*discount*/
+
+ .discount-img{
+     width: 400px;
+ }
+ .discount{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 10px 0;
+     background-color: #F7F5F2;
+ }
+ .discount-item{
+     flex-direction: column;
+     background-color: white;
+     text-align: center;
+     border-radius: 6px;
+     box-shadow: 3px 5px 7px;
+     padding: 10px 0px;
+ }
+ .discount-title{
+     text-align: center;
+ }
+
+ /*products*/
+ .product{
+     background-color: #F7F5F2;
+     padding: 15px 0px;
+ }
+ .product-item{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     margin: 15px 0px;
+ }
+ .mobiles {
+ display: flex;
+ flex-direction: column;
+ width: 20%;
+ align-items: center;
+ background-color: white;
+ border-radius: 5px;
+ padding: 10px 0px;
+ box-shadow: 1px 1px 1px;
+ }
+ .mobiles img{
+     width: 500px;
+ }
+  .product-title{
+     text-align: center;
+ }
+.sub-footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    background-color:#DFDFDE;
+}
+.links a{
+    padding: 20px;
+    text-decoration: none;
+    color: blue;
+    justify-content: center;
+}
+.address{
+    color: blue;
+}
+.copywrite{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #DFDFDE;
+}
