@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*heading css*/
+.nav li{
+    list-style-type: none;
+   
+}
+.nav{
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+img {
+    height: 60px;
+}
+.nav-bar{
+    background-color: whitesmoke;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+button{
+    border: 0;
+    border-radius: 5px;
+    width: 80px;
+    height: 50px;
+    padding: 10px 0px;
+    background-color: blue;
+    color: white;
+
+}
+/*heading css*/
+.main-section{
+  text-align: center;
+  gap: 50px;
+  font-weight: none;
+}
+.featured-content {
+  background-color:#f4f4f4;
+  display: flex;
+  
+
+}
+.content-image{
+    display: flex;
+    justify-content: flex-end;
+    width:50%
+
+}
+.content-product{
+    width:50%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   gap:0px;
+   
+  
+}
+.img{
+    width:500px;
+    height: 500px;
+}
+.another{
+    width:70%;
+   
+}
+.nav-bar li:hover{
+    color:blue;
+    cursor:pointer;
+}
+/* discount section*/
+.discount-title{
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.discount-image{
+    width:400px;
+    height:300px;
+}
+.discount-thing{
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:15px;
+    padding-bottom:10px;
+   
+}
+.discount-2{
+    background-color:whitesmoke;
+    border-radius:20px;
+    width:500px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:15px;
+    
+}
+.discount-thing:hover{
+    color:blue;
+    cursor:pointer;
+}
+.btnn{
+    margin-bottom:10px;
+}
+
+
+/* discount section*/
+
+/* products section*/
+.Product-items {
+  
+   
+}
+.Product-item{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-bottom:10px;
+    padding-top:10px;
+}
+.image-item{
+    width:300px;
+    height:280px;
+}
+.Product-title{
+    text-align:center;
+}
+.Product-item p{
+    text-align:center;
+}
+.Product-item div{
+    /*border:3px solid black;*/
+    
+}
+/* products section*/
+/* footer section*/
+footer{
+    background-color:whitesmoke;
+}
+.fot li:hover{
+  color:blue; 
+  cursor:pointer;
+}
+.fot li{
+    list-style-type:none;
+}
+.three-footer{
+    display:flex;
+    flex-direction:row;
+    align-items:space-between;
+    gap:380px;
+    padding: 5px 0px ;
+   
+
+}
+.footer-logo{
+    display:flex;
+    align-items:center;
+}
+
+
+/* footer section*/
