@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 80%;
+}
+
+.nav__bar {
+  background: rgb(245, 248, 229);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav__bar-logo {
+  width: 9%;
+  cursor: pointer;
+}
+
+.nav__bar-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__bar-links li {
+  font-weight: 400;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid transparent;
+}
+
+.nav__bar-links li:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav__bar-btn {
+  padding: 0.9rem 2rem;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+}
+
+.nav__bar-btn:hover {
+  background: rgb(46, 46, 46);
+}
+
+.main__section {
+  width: 70%;
+  margin: 0 auto;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  line-height: 1.5rem;
+}
+
+.main__section h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.main__section p {
+  font-weight: 200;
+  color: grey;
+}
+
+.main__section-btn {
+  padding: 0.9rem 2rem;
+  border: 1px solid #000;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background: none;
+  color: #000;
+}
+
+.main__section-btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.featured__products {
+  width: 100%;
+  height: auto;
+  background: rgb(245, 248, 229);
+  display: flex;
+  justify-content: space-around;
+}
+
+.inverse {
+  flex-direction: row-reverse;
+  background: #fff;
+  margin: 1rem 0rem;
+}
+
+.featured__products-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.featured__products-content h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.featured__products-content p {
+  font-weight: 200;
+  color: grey;
+}
+
+.featured__products-btn {
+  padding: 0.9rem 2rem;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+}
+
+.featured__products-btn:hover {
+  background: rgb(46, 46, 46);
+}
+
+.featured__products-image {
+  width: 40%;
+}
+
+.featured__products-image img {
+  width: 100%;
+}
+
+.footer {
+  background: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
